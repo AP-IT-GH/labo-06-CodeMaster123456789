@@ -1,0 +1,33 @@
+body {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+}
+
+div {
+    height: 250px;
+    width: 250px;
+    padding: 0.5rem;
+    position: absolute;
+}
+
+#b1 {
+    background-color: orange;   
+    left: 30rem;
+    top: 10rem;
+    z-index: 3;
+}
+
+#b2 {
+    background-color: lightskyblue;
+    left: 33rem;
+    top: 13rem;
+    z-index: 2;
+}
+
+#b3 {
+    background-color: darkblue;
+    left: 36rem;
+    top: 17rem;
+    z-index: 1;
+}
